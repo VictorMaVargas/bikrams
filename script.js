@@ -1,3 +1,4 @@
+//VARIABLES, CONDICIONALES, BUCLES Y OPERADORES 
 //1.- Crear variable tipo let de nombre variableSinValor declarada sin valor
 let variableSinValor
 //2 Crear 2 variables tipo let de nombres booleano1 y booleano2 con valores booleanos
@@ -21,18 +22,21 @@ let incrementarAntes = 2;
 let resultadoAntes = incrementarAntes;
 //10.-Crear variable contarHasta10_2 con valor 0 e incrementar su valor con un bucle for hasta que se verifique que contarHasta10_2 === 10
 let contarHasta10_2 = 0;
+
 for( i = 0; i < 11; i++){
     console.log(i);
 };
 // 11.- Crear las variables postI y postJ con valor 0 a continuación cree un bucle que itere 11 veces. En cada iteración se deberá sumar al valor de postI el valor de postJ++
 let postI = 0;
 let postJ = 0;
+
 for (i = 0; i<11; i++){
     postI += postJ++;
     console.log(postI);
 }
 //12.- Crear la variable sumaPares con valor 0 a continuación crea un bucle que itere 10 veces (i < 10) si la iteración es par se deberá sumar a sumaPares el número de la iteración actual (i)
 let sumaPares = 0;
+
 for(i = 0; i<10; i++){
     if(i % 2 == 0){
     sumaPares += i;
@@ -41,8 +45,10 @@ for(i = 0; i<10; i++){
 console.log(sumaPares);
 //13.- Crear variable tipo let de nombre variableValorNumerico declarada con un valor numérico cualquiera
 let variableValorNumerico = 5;
+console.log(variableValorNumerico)
 //14.- Crear variable tipo const de nombre MiNombre declarada con valor tu nombre
 const MiNombre = "Victor";
+console.log(MiNombre)
 //15.- Crear variable tipo const de nombre MiNumeroFav declarada con valor numérico
 const MiNumeroFav = 10;
 //16.- Crear variable booleanoOr cuyo calor sea la comparación booleana booleano1 or booleano2
@@ -73,4 +79,20 @@ while(contarHasta10<11){
     console.log(contarHasta10)
     contarHasta10++
 }
+// 25.- Crear las variables preI y preJ con valor 0 a continuación cree un bucle que itere 11 veces. En cada iteración se deberá sumar al valor de preI el valor de ++preJ
+preI = 0;
+preJ = 0;
 
+for(i = 0; i<11; i++){
+    preI += ++preJ;
+    console.log(preI);
+}
+
+//26.- Crear la variable sumaImpares con valor 0 a continuación crea un bucle que itere 10 veces (i < 10) si la iteración es impar se deberá sumar a sumaImpares el número de la iteración actual (i)
+let sumaImpares = 0;
+for(i = 0; i<10; i++){
+    if(i % 2 == 1){
+    sumaImpares += i
+    }
+}
+    console.log(sumaImpares)
