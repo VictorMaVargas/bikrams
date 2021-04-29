@@ -47,8 +47,21 @@ function repetirString(){
 }
 repetirString()
 //9.- Crea la función esPrimo que acepte como argumento un número y devuelva true si es primo y false si no lo es
+function primos(numero){
+
+	if (numero / 1 == numero && numero / numero == 1 || numero == 2){
+    return true;
+    }
+	else{
+        return false;
+    }
+}
+console.log(primos(8));
 
 //10.- Crear la función ordenarArray que acepta como argumento un array de números y devuelva un array ordenado de menor a mayor
+function ordenarArray(arrayNumeros){
+    return arrayNumeros.sort(function(a, b){return b-a});}
+    console.log(ordenarArray[5, 4, 19, 12, 7])
 
 //11.- Crear la función obtenerPares que acepta como argumento un array de números y devuelva un array con los elementos pares
 
