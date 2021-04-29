@@ -60,8 +60,8 @@ console.log(primos(8));
 
 //10.- Crear la función ordenarArray que acepta como argumento un array de números y devuelva un array ordenado de menor a mayor
 function ordenarArray(arrayNumeros){
-    return arrayNumeros.sort(function(a, b){return b-a});}
-    console.log(ordenarArray[5, 4, 19, 12, 7])
+    return arrayNumeros.sort(function(a, b){return a-b})}
+    console.log(ordenarArray([5, 4, 19, 12, 7]))
 
 //11.- Crear la función obtenerPares que acepta como argumento un array de números y devuelva un array con los elementos pares
 
